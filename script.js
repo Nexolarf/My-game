@@ -73,4 +73,4 @@ function retstart(){
     retstart.style.marginLeft = (body.offsetWidth - retstart.offsetWidth)/2 + 'px'
     retstart.onclick = () => location.reload()    
 }
-let tnt = document.getElementById(randomInteger(1, 1))
+let tnt = document.getElementById(randomInteger(1, 16))
