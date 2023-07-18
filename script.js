@@ -1,12 +1,3 @@
-bridge.send('VKWebAppInit')
-  .then((data) => { 
-    if (data.result) {
-    } else {
-    }
-  })
-  .catch((error) => {
-    console.log(error);
-  });
 let body = document.getElementById('body')
 let arrId = []
 body.style.width = window.innerWidth + 'px'
